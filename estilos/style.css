@@ -278,11 +278,17 @@ footer a:hover {
   }
 
   section#ficha {
+    grid-column: 2/3;
 
+    /* Deixa a seção da ficha fixa ao rolar a página */
+    
+    height: fit-content;
+    position: sticky;
+    top: 65px;
   }
 
   section#detalhes {
-
+    grid-column: 3/4;
   }
 
   #skill-container {
